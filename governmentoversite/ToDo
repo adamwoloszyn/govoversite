@@ -1,0 +1,43 @@
+Tasks:
+- [X] Created Laravel project, leveraging BootStrap
+- [X] Created PHP controller daemon framework
+- [X] Created multi role login framework
+- [X] Created a prototype to indexing of a transcript
+- [X] ReadMe - add how to get application up and running
+- [X] ToDo created - this file
+- [X] Implement word hashing function - Several have been implemented and tested.
+- [ ] Adam - Strip integration
+- [ ] Adam - Account still valid daemon
+- [X] Video uploading
+- [X] Sonix transcription daemon
+- [X] Sonix download transcription file
+- [X] Indexing daemon
+- [X] DB Schema
+- [X] Model configuration
+- [X] Need to place it in S3 to allow public access
+- [X] Model/Factory: Word Contractions
+- [X] Model Videos
+- [X] Model Video Categories
+- [X] Add user?  What is that supposed to do?
+- [ ] Video Thumb display
+- [ ] On video list screen, remove edit option if not in final backend processing state.
+- [ ] admin video search goes against what : agenda entries
+- [ ] everyone elase video search goes against what : agenda entries 
+- [ ] email subscription daemon
+- [ ] Discuss what a video summary is
+
+
+Bugs:
+- [ ] Bug: On upload screen, when an error is encountered, the file name is not being preserved.
+- [X] Adam reports seeding causes an error
+        Million - Was not able to reproduce.  There must a difference in MySql configuration.  We need to determine what that is.
+
+Comments/Questions:
+- [/] PHP Laravel might not be the best choice for the parsing of transcripts.  What options does environment give?
+- [X] Adam: Need Sonix.ai account information
+- [X] Adam: Need AWS account information
+- [ ] Adam: Need to learn how to allow video player to be commanded to a specific time in the video
+- [ ] Adam: Access to hosting solution for this project
+- [ ] Need to learn how to publish this application into client's environment
+- [X] Do shorten words need to be expanded we've -> we have
+- [ ] Local public storage clean up; all files should be stored in S3

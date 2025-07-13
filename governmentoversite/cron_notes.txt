@@ -1,0 +1,33 @@
+7:46 - started cron
+upload took about 54 seconds for 5gb
+compression took about 17:50
+
+1. In Sonix queue for about 20 minutes and it detects length.
+2. Continues processing and at 31 minutes it started transcribing
+3. At 22 minutes past that, it finished transcribing. 
+
+
+
+Workflow for Imports.
+Read CSV sheet.
+CSV sheet will contain the information:
+- Video File Path
+- Video Name
+- ETC
+for each record:
+    - Create process to:
+        - download the file from s3
+        - upon successful file download, insert record into Videos table.
+        - make sure the video is in state 1
+
+
+Adding a new Video:
+Upload the quarter size item. 
+- talk about uploader
+- talk about how file chunking works
+- talk about the background processes
+    - cronjob vs. long running job
+
+Import old video:
+- show spreadsheet
+- missing some metadata we need to figure out.
